@@ -1,3 +1,4 @@
+// clock 추가
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className='container'>
       <TodoList></TodoList>
-      <Clock></Clock>
+      <Clock></Clock> 
     </div>
   );
 }
